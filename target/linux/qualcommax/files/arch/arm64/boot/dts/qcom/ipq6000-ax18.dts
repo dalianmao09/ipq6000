@@ -213,7 +213,6 @@
 };
 
 &wifi {
-	status = "okay";
-	qcom,ath11k-calibration-variant = "CMIOT-AX18";
-	qcom,ath11k-fw-memory-mode = <1>;
+	status = "disabled";
+	qcom,ath11k-fw-memory-mode = <2>;
 };

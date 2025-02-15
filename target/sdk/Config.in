@@ -1,5 +1,5 @@
 config SDK
-	bool "Build the LEDE SDK"
+	bool "Build the OpenWrt SDK"
 	depends on !EXTERNAL_TOOLCHAIN
 	default BUILDBOT
 	help
